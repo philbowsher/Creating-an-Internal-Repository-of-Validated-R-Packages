@@ -1,0 +1,309 @@
+Package,Version,Path,License,Needs Compilation,Dependency,Depends,Imports,LinkingTo,Suggests,Available
+asciicast,1.0.0,,MIT + file LICENSE,no,true,,"curl, jsonlite, processx (>= 3.4.0), tibble, utils, uuid, V8",,"cli, htmlwidgets, knitr, rmarkdown",false
+askpass,1.1,,MIT + file LICENSE,yes,true,,sys (>= 2.1),,testthat,false
+assertthat,0.2.1,,GPL-3,no,true,,tools,,"testthat, covr",false
+aws.ec2metadata,0.2.0,,GPL (>= 2),no,true,,"curl, jsonlite",,,false
+aws.s3,0.3.21,,GPL (>= 2),no,true,,"utils, tools, curl, httr, xml2 (> 1.0.0), base64enc, digest, aws.signature (>= 0.3.7)",,"testthat, datasets",false
+aws.signature,0.6.0,,GPL (>= 2),no,true,,"digest, base64enc",,"testthat (>= 2.1.0), aws.ec2metadata (>= 0.1.6)",false
+backports,1.4.1,,GPL-2 | GPL-3,yes,false,R (>= 3.0.0),,,,false
+base64enc,0.1-3,,GPL-2 | GPL-3,yes,true,R (>= 2.9.0),,,,false
+beeswarm,0.4.0,,Artistic-2.0,yes,true,,"stats, graphics, grDevices, utils",,,false
+bench,1.1.2,,MIT + file LICENSE,yes,false,R (>= 3.1),"glue, methods, pillar, profmem, rlang (>= 0.2.0), stats, tibble (>= 3.0.1), utils",,"covr, dplyr, forcats, ggbeeswarm, ggplot2, ggridges, jsonlite, mockery, parallel, scales, testthat, tidyr (>= 0.8.1), vctrs, withr",false
+BiocManager,1.30.17,,Artistic-2.0,no,true,,utils,,"BiocVersion, remotes, rmarkdown, testthat, withr, curl, knitr",false
+bit,4.0.4,,GPL-2 | GPL-3,yes,true,R (>= 2.9.2),,,"testthat (>= 0.11.0), roxygen2, knitr, rmarkdown, microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)",false
+bit64,4.0.5,,GPL-2 | GPL-3,yes,true,"R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats",,,,false
+bitops,1.0-7,,GPL (>= 2),yes,true,,,,,false
+blob,1.2.3,,MIT + file LICENSE,no,true,,"methods, rlang, vctrs (>= 0.2.1)",,"covr, crayon, pillar (>= 1.2.1), testthat",false
+blogdown,1.10,,GPL-3,no,true,,"bookdown (>= 0.22), htmltools, httpuv (>= 1.4.0), jsonlite, knitr (>= 1.25), later, rmarkdown (>= 2.8), servr (>= 0.21), xfun (>= 0.29), yaml (>= 2.1.19)",,"miniUI, processx, rstudioapi, shiny, stringr, testit, tools, whoami",false
+bookdown,0.26,,GPL-3,no,true,,"htmltools (>= 0.3.6), knitr (>= 1.31), rmarkdown (>= 2.13), jquerylib, xfun (>= 0.29), tinytex (>= 0.12), yaml (>= 2.1.19)",,"bslib (>= 0.2.4), downlit (>= 0.4.0), htmlwidgets, jsonlite, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr (>= 0.13), shiny, tibble, testit (>= 0.9), tufte, xml2, webshot, testthat (>= 3.1.0), withr (>= 2.3.0)",false
+brew,1.0-7,,GPL-2,no,true,,,,testthat,false
+brio,1.1.3,,MIT + file LICENSE,yes,false,,,,"covr, testthat (>= 2.1.0)",false
+broom,0.8.0,,MIT + file LICENSE,no,true,R (>= 3.1),"backports, dplyr (>= 1.0.0), ellipsis, generics (>= 0.0.2), glue, methods, purrr, rlang, stringr, tibble (>= 3.0.0), tidyr (>= 1.0.0), ggplot2",,"AER, akima, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>= 1.10.6), car, caret, cluster, cmprsk, coda, covr, drc, e1071, emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0), gam (>= 1.15), gee, geepack, glmnet, glmnetUtils, gmm, Hmisc, irlba, joineRML, Kendall, knitr, ks, Lahman, lavaan, leaps, lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38), lsmeans, maps, maptools, margins, MASS, Matrix, mclust, mediation, metafor, mfx, mgcv, mlogit, modeldata, modeltests, muhaz, multcomp, network, nnet, orcutt (>= 2.2), ordinal, plm, poLCA, psych, quantreg, rgeos, rmarkdown, robust, robustbase, rsample, sandwich, sp, spdep (>= 1.1), spatialreg, speedglm, spelling, survey, survival, systemfit, testthat (>= 2.1.0), tseries, vars, zoo",false
+bslib,0.3.1,,MIT + file LICENSE,no,true,R (>= 2.10),"grDevices, htmltools (>= 0.5.2), jsonlite, sass (>= 0.4.0), jquerylib (>= 0.1.3), rlang",,"shiny (>= 1.6.0), rmarkdown (>= 2.7), thematic, knitr, testthat, withr, rappdirs, curl, magrittr",false
+cachem,1.0.6,,MIT + file LICENSE,yes,false,,"rlang, fastmap",,testthat,false
+callr,3.7.0,,MIT + file LICENSE,no,false,,"processx (>= 3.5.0), R6, utils",,"cli, covr, ps, rprojroot, spelling, testthat, withr (>= 2.3.0)",false
+cellranger,1.1.0,,MIT + file LICENSE,no,true,R (>= 3.0.0),"rematch, tibble",,"covr, testthat (>= 1.0.0), knitr, rmarkdown",false
+checkmate,2.1.0,,BSD_3_clause + file LICENSE,yes,true,R (>= 3.0.0),"backports (>= 1.1.0), utils",,"R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2, knitr, magrittr, microbenchmark, rmarkdown, testthat (>= 3.0.4), tinytest (>= 1.1.0), tibble",false
+class,7.3-20,,GPL-2 | GPL-3,yes,true,"R (>= 3.0.0), stats, utils",MASS,,,false
+class,7.3-20,4.3.0/Recommended,GPL-2 | GPL-3,yes,true,"R (>= 3.0.0), stats, utils",MASS,,,false
+cli,3.3.0,,MIT + file LICENSE,yes,false,R (>= 3.4),"glue (>= 1.6.0), utils",,"asciicast, callr, covr, digest, grDevices, htmltools, htmlwidgets, knitr, methods, mockery, processx, ps (>= 1.3.4.9000), rlang, rmarkdown, rstudioapi, shiny, testthat, tibble, whoami, withr",false
+clipr,0.8.0,,GPL-3,no,true,,utils,,"covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>= 2.0.0)",false
+clisymbols,1.2.0,,MIT + file LICENSE,no,true,,,,testthat,false
+clock,0.6.0,,MIT + file LICENSE,yes,false,R (>= 3.3),"ellipsis (>= 0.3.1), rlang (>= 0.4.10), tzdb (>= 0.2.0), vctrs (>= 0.3.7)","cpp11 (>= 0.4.0), tzdb (>= 0.2.0)","covr, knitr, magrittr, pillar, rmarkdown, testthat (>= 3.0.0), withr",false
+codetools,0.2-18,,GPL,no,true,R (>= 2.1),,,,false
+codetools,0.2-18,4.3.0/Recommended,GPL,no,true,R (>= 2.1),,,,false
+colorspace,2.0-3,,BSD_3_clause + file LICENSE,yes,true,"R (>= 3.0.0), methods","graphics, grDevices, stats",,"datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd, tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg, knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis, wesanderson",false
+commonmark,1.8.0,,BSD_2_clause + file LICENSE,yes,false,,,,"curl, testthat, xml2",false
+conflicted,1.1.0,,MIT + file LICENSE,no,false,R (>= 3.2),"memoise, rlang (>= 0.3.4)",,"callr, crayon, dplyr, Matrix, methods, pkgload, testthat (>= 3.0.0)",false
+covr,3.5.1,,GPL-3,yes,false,"R (>= 3.1.0), methods","digest, stats, utils, jsonlite, rex, httr, crayon, withr (>= 1.0.2), yaml",,"R6, curl, knitr, rmarkdown, htmltools, DT (>= 0.2), testthat, rlang, rstudioapi (>= 0.2), xml2 (>= 1.0.0), parallel, memoise, mockery",false
+cpp11,0.4.2,,MIT + file LICENSE,no,false,,,,"bench, brio, callr, cli, covr, decor, desc, ggplot2, glue, knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp, testthat, tibble, utils, vctrs, withr",false
+crayon,1.5.1,,MIT + file LICENSE,no,false,,"grDevices, methods, utils",,"mockery, rstudioapi, testthat, withr",false
+credentials,1.3.2,,MIT + file LICENSE,no,true,,"openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass",,"testthat, knitr, rmarkdown",false
+crosstalk,1.2.0,,MIT + file LICENSE,no,true,,"htmltools (>= 0.3.6), jsonlite, lazyeval, R6",,"shiny, ggplot2, testthat (>= 2.1.0), sass, bslib",false
+curl,4.3.2,,MIT + file LICENSE,yes,true,R (>= 3.0.0),,,"spelling, testthat (>= 1.0.0), knitr, jsonlite, rmarkdown, magrittr, httpuv (>= 1.4.4), webutils",false
+cyclocomp,1.1.0,,MIT + file LICENSE,no,true,,"callr, crayon, desc, remotes, withr",,testthat,false
+data.table,1.14.2,,MPL-2.0 | file LICENSE,yes,true,R (>= 3.1.0),methods,,"bit64 (>= 4.0.0), bit (>= 4.0.4), curl, R.utils, xts, nanotime, zoo (>= 1.8-1), yaml, knitr, rmarkdown",false
+data.tree,1.0.0,,GPL (>= 2),no,true,R (>= 3.5),"R6, stringi, methods",,"Formula, graphics, testthat, knitr, rmarkdown, ape, yaml, networkD3, jsonlite, treemap, party, partykit, doParallel, foreach, htmlwidgets, DiagrammeR (>= 1.0.0), mockery, rpart",false
+DBI,1.1.2,,LGPL (>= 2.1),no,true,"methods, R (>= 3.0.0)",,,"blob, covr, DBItest, dbplyr, downlit, dplyr, glue, hms, knitr, magrittr, RMariaDB, rmarkdown, rprojroot, RSQLite (>= 1.1-2), testthat, xml2",false
+dbplyr,2.1.1,,MIT + file LICENSE,no,true,R (>= 3.1),"assertthat (>= 0.2.0), blob (>= 1.2.0), DBI (>= 1.0.0), dplyr (>= 1.0.4), ellipsis, glue (>= 1.2.0), lifecycle (>= 1.0.0), magrittr, methods, purrr (>= 0.2.5), R6 (>= 2.2.2), rlang (>= 0.2.0), tibble (>= 1.4.2), tidyselect (>= 0.2.4), utils, vctrs, withr",,"bit64, covr, knitr, Lahman, nycflights13, odbc, RMariaDB (>= 1.0.2), rmarkdown, RPostgres (>= 1.1.3), RPostgreSQL, RSQLite (>= 2.1.0), testthat (>= 3.0.2), tidyr",false
+debugme,1.1.0,,MIT + file LICENSE,no,true,,"crayon, grDevices",,"covr, mockery, R6, testthat, withr",false
+decor,1.0.1,,MIT + file LICENSE,yes,true,R (>= 3.3.0),"tibble, utils, vctrs",,"covr, testthat",false
+desc,1.4.1,,MIT + file LICENSE,no,false,R (>= 3.4),"cli, R6, rprojroot, utils",,"callr, covr, gh, spelling, testthat, whoami, withr",false
+devtools,2.4.3,,MIT + file LICENSE,no,false,"R (>= 3.0.2), usethis (>= 2.0.1)","callr (>= 3.6.0), cli (>= 3.0.0), desc (>= 1.3.0), ellipsis (>= 0.3.1), fs (>= 1.5.0), httr (>= 1.4.2), lifecycle (>= 1.0.0), memoise (>= 2.0.0), pkgbuild (>= 1.2.0), pkgload (>= 1.2.1), rcmdcheck (>= 1.3.3), remotes (>= 2.3.0), rlang (>= 0.4.10), roxygen2 (>= 7.1.1), rstudioapi (>= 0.13), rversions (>= 2.0.2), sessioninfo (>= 1.1.1), stats, testthat (>= 3.0.2), tools, utils, withr (>= 2.4.1)",,"BiocManager (>= 1.30.12), covr (>= 3.5.1), curl (>= 4.3), digest (>= 0.6.27), DT (>= 0.17), foghorn (>= 1.3.2), gh (>= 1.2.1), gmailr (>= 1.0.0), knitr (>= 1.31), lintr (>= 2.0.1), MASS, mockery (>= 0.4.2), pingr (>= 2.0.1), pkgdown (>= 1.6.1), rhub (>= 1.1.1), rmarkdown (>= 2.7), spelling (>= 2.2)",false
+DiagrammeR,1.0.9,,MIT + file LICENSE,no,true,R (>= 3.2),"dplyr (>= 1.0.7), downloader (>= 0.4), glue (>= 1.5.0), htmltools (>= 0.5.2), htmlwidgets (>= 1.5), igraph (>= 1.2.11), influenceR (>= 0.1.0.1), magrittr (>= 1.5), purrr (>= 0.3.4), RColorBrewer (>= 1.1-2), readr (>= 2.1.1), rlang (>= 0.4), rstudioapi (>= 0.7), scales (>= 1.1), stringr (>= 1.4), tibble (>= 3.1), tidyr (>= 1.1), viridis (>= 0.6.2), visNetwork (>= 2.1.0)",,"covr, DiagrammeRsvg, rsvg, knitr, testthat, rmarkdown",false
+dials,0.1.1,,MIT + file LICENSE,no,true,"R (>= 3.4), scales","DiceDesign, dplyr (>= 0.8.5), glue, hardhat (>= 0.2.0), lifecycle, purrr, rlang (>= 1.0.1), tibble, utils, vctrs (>= 0.3.8), withr",,"covr, kernlab, knitr, rmarkdown, rpart, testthat (>= 3.0.0), xml2",false
+DiceDesign,1.9,,GPL-3,yes,true,R (>= 2.10),,,"rgl, randtoolbox, lattice",false
+dichromat,2.0-0.1,,GPL-2,no,true,"R (>= 2.10), stats",,,,false
+diffobj,0.3.5,,GPL-2 | GPL-3,yes,true,R (>= 3.1.0),"crayon (>= 1.3.2), tools, methods, utils, stats",,"knitr, rmarkdown",false
+diffviewer,0.1.1,,MIT + file LICENSE,no,true,,"htmlwidgets, jsonlite",,"covr, shiny",false
+digest,0.6.29,,GPL (>= 2),yes,true,R (>= 3.3.0),utils,,"tinytest, simplermarkdown",false
+distro,0.1.0,,Apache License (>= 2.0),no,true,,,,testthat (>= 2.1.0),false
+docopt,0.7.1,,MIT + file LICENSE,no,true,,methods,,testthat,false
+downlit,0.4.0,,MIT + file LICENSE,no,false,R (>= 3.4.0),"brio, desc, digest, evaluate, fansi, memoise, rlang, vctrs, yaml",,"covr, htmltools, jsonlite, leaflet, MASS, pkgload, rmarkdown, testthat (>= 3.0.0), xml2",false
+downloader,0.4,,GPL-2,no,true,,"utils, digest",,testthat,false
+dplyr,1.0.9,,MIT + file LICENSE,yes,true,R (>= 3.4.0),"generics, glue (>= 1.3.2), lifecycle (>= 1.0.1), magrittr (>= 1.5), methods, R6, rlang (>= 1.0.2), tibble (>= 2.1.3), tidyselect (>= 1.1.1), utils, vctrs (>= 0.4.1), pillar (>= 1.5.1)",,"bench, broom, callr, covr, DBI, dbplyr (>= 1.4.3), ggplot2, knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr, rmarkdown, RMySQL, RPostgreSQL, RSQLite, testthat (>= 3.1.1), tidyr, withr",false
+DT,0.23,,GPL-3 | file LICENSE,no,true,,"htmltools (>= 0.3.6), htmlwidgets (>= 1.3), jsonlite (>= 0.9.16), magrittr, crosstalk, jquerylib, promises",,"knitr (>= 1.8), rmarkdown, shiny (>= 1.6), bslib, testit",false
+dtplyr,1.2.1,,MIT + file LICENSE,no,true,R (>= 3.3),"crayon, data.table (>= 1.13.0), dplyr (>= 1.0.3), ellipsis, glue, lifecycle, rlang, tibble, tidyselect, vctrs",,"bench, covr, knitr, rmarkdown, testthat (>= 3.0.0), tidyr (>= 1.1.0)",false
+ellipsis,0.3.2,,MIT + file LICENSE,yes,true,R (>= 3.2),rlang (>= 0.3.0),,"covr, testthat",false
+evaluate,0.15,,MIT + file LICENSE,no,true,R (>= 3.0.2),methods,,"covr, ggplot2, lattice, testthat",false
+fansi,1.0.3,,GPL-2 | GPL-3,yes,true,R (>= 3.1.0),"grDevices, utils",,"unitizer, knitr, rmarkdown",false
+farver,2.1.0,,MIT + file LICENSE,yes,true,,,,"testthat (>= 2.1.0), covr",false
+fastmap,1.1.0,,MIT + file LICENSE,yes,false,,,,testthat (>= 2.1.1),false
+feather,0.3.5,,Apache License 2.0,yes,true,,"Rcpp, tibble (>= 2.0.0), hms",Rcpp,testthat,false
+filelock,1.0.2,,MIT + file LICENSE,yes,false,,,,"callr (>= 2.0.0), covr, testthat",false
+foghorn,1.4.2,,MIT + file LICENSE,no,true,R (>= 3.1.0),"clisymbols (>= 1.0.0), crayon (>= 1.3.2), curl (>= 2.2), httr (>= 1.2.1), jsonlite (>= 1.5), rlang (>= 0.4.3), rvest (>= 0.3.2), tibble (>= 1.2), xml2 (>= 1.0.0)",,"covr, dplyr, knitr, progress, rmarkdown, testthat",false
+fontawesome,0.2.2,,MIT + file LICENSE,no,true,R (>= 3.3.0),"rlang (>= 0.4.10), htmltools (>= 0.5.1.1)",,"covr, knitr, testthat, rsvg",false
+forcats,0.5.1,,MIT + file LICENSE,no,true,R (>= 3.2),"ellipsis, magrittr, rlang, tibble",,"covr, dplyr, ggplot2, knitr, readr, rmarkdown, testthat",false
+foreach,1.5.2,,Apache License (== 2.0),no,true,R (>= 2.5.0),"codetools, utils, iterators",,"randomForest, doMC, doParallel, testthat, knitr, rmarkdown",false
+formattable,0.2.1,,MIT + file LICENSE,no,true,R (> 3.0.2),"methods, htmltools, htmlwidgets, knitr, rmarkdown",,"testthat, DT, shiny, covr",false
+fs,1.5.2,,MIT + file LICENSE,yes,false,R (>= 3.1),methods,,"testthat, covr, pillar (>= 1.0.0), tibble (>= 1.1.0), crayon, rmarkdown, knitr, withr, spelling, vctrs (>= 0.3.0)",false
+furrr,0.3.0,,MIT + file LICENSE,no,true,"future (>= 1.25.0), R (>= 3.4.0)","globals (>= 0.14.0), lifecycle (>= 1.0.1), purrr (>= 0.3.4), rlang (>= 1.0.2), vctrs (>= 0.4.1)",,"carrier, covr, dplyr (>= 0.7.4), knitr, listenv (>= 0.6.0), magrittr, rmarkdown, testthat (>= 3.0.0), tidyselect, withr",false
+future,1.25.0,,LGPL (>= 2.1),no,true,,"digest, globals (>= 0.14.0), listenv (>= 0.8.0), parallel, parallelly (>= 1.30.0), tools, utils",,"RhpcBLASctl, R.rsp, markdown",false
+future.apply,1.9.0,,GPL (>= 2),no,true,"R (>= 3.2.0), future (>= 1.22.1)","globals (>= 0.14.0), parallel, utils",,"datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown",false
+gargle,1.2.0,,MIT + file LICENSE,no,false,R (>= 3.3),"cli (>= 3.0.0), fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.0), jsonlite, rappdirs, rlang (>= 0.4.9), rstudioapi, stats, utils, withr",,"aws.ec2metadata, aws.signature, covr, httpuv, knitr, mockr, rmarkdown, sodium, spelling, testthat (>= 3.0.0)",false
+generics,0.1.2,,MIT + file LICENSE,no,true,R (>= 3.2),methods,,"covr, pkgload, testthat (>= 3.0.0), tibble, withr",false
+gert,1.6.0,,MIT + file LICENSE,yes,false,,"askpass, credentials (>= 1.2.1), openssl (>= 1.4.1), rstudioapi (>= 0.11), sys, zip (>= 2.1.0)",,"spelling, knitr, rmarkdown, testthat",false
+ggbeeswarm,0.6.0,,GPL (>= 2),no,true,"R (>= 3.0.0), ggplot2 (>= 2.0)","beeswarm, vipor",,gridExtra,false
+ggplot2,3.3.6,,MIT + file LICENSE,no,true,R (>= 3.3),"digest, glue, grDevices, grid, gtable (>= 0.1.1), isoband, MASS, mgcv, rlang (>= 0.4.10), scales (>= 0.5.0), stats, tibble, withr (>= 2.0.0)",,"covr, ragg, dplyr, ggplot2movies, hexbin, Hmisc, interp, knitr, lattice, mapproj, maps, maptools, multcomp, munsell, nlme, profvis, quantreg, RColorBrewer, rgeos, rmarkdown, rpart, sf (>= 0.7-3), svglite (>= 1.2.0.9001), testthat (>= 2.1.0), vdiffr (>= 1.0.0), xml2",false
+ggridges,0.5.3,,GPL-2 | file LICENSE,no,true,R (>= 3.2),"ggplot2 (>= 3.0.0), grid (>= 3.0.0), plyr (>= 1.8.0), scales (>= 0.4.1), withr (>= 2.1.1)",,"covr, dplyr, patchwork, ggplot2movies, forcats, knitr, rmarkdown, testthat, vdiffr",false
+gh,1.3.0,,MIT + file LICENSE,no,false,,"cli (>= 2.0.1), gitcreds, httr (>= 1.2), ini, jsonlite",,"covr, knitr, mockery, rmarkdown, rprojroot, spelling, testthat (>= 2.3.2), withr",false
+git2r,0.30.1,,GPL-2,yes,true,R (>= 3.1),"graphics, utils",,getPass,false
+gitcreds,0.1.1,,MIT + file LICENSE,no,false,,,,"codetools, testthat, knitr, mockery, oskeyring, rmarkdown, withr",false
+globals,0.15.0,,LGPL (>= 2.1),no,true,R (>= 3.1.2),codetools,,,false
+glue,1.6.2,,MIT + file LICENSE,yes,true,R (>= 3.4),methods,,"covr, crayon, DBI, dplyr, forcats, ggplot2, knitr, magrittr, microbenchmark, R.utils, rmarkdown, rprintf, RSQLite, stringr, testthat (>= 3.0.0), vctrs (>= 0.3.0), waldo (>= 0.3.0), withr",false
+gmailr,1.0.1,,MIT + file LICENSE,no,true,R (>= 3.0.0),"base64enc, crayon, gargle, httr, jsonlite, lifecycle, magrittr, mime, rematch2",,"covr, knitr, methods, rmarkdown, sodium, testthat",false
+googleAuthR,2.0.0,,MIT + file LICENSE,no,true,R (>= 3.3.0),"assertthat (>= 0.2.0), cli (>= 2.0.2), digest, gargle (>= 1.2.0), httr (>= 1.4.0), jsonlite (>= 1.6), memoise (>= 1.1.0), rlang, utils",,"bigQueryR, covr, devtools (>= 1.12.0), formatR (>= 1.4), googleAnalyticsR, knitr, miniUI (>= 0.1.1), rmarkdown, roxygen2 (>= 5.0.0), rstudioapi, shiny (>= 0.13.2), testthat, usethis (>= 1.6.0)",false
+googleCloudStorageR,0.7.0,,MIT + file LICENSE,no,true,R (>= 3.2.0),"assertthat (>= 0.2.0), cli, curl, googleAuthR (>= 1.4.0), httr (>= 1.2.1), jsonlite (>= 1.0), openssl, utils, yaml, zip (>= 2.0.3)",,"fs, googleComputeEngineR, knitr, readr, rmarkdown, sodium, testthat, usethis",false
+googledrive,2.0.0,,MIT + file LICENSE,no,true,R (>= 3.3),"cli (>= 3.0.0), gargle (>= 1.2.0), glue (>= 1.4.2), httr, jsonlite, lifecycle, magrittr, pillar, purrr (>= 0.2.3), rlang (>= 0.4.9), tibble (>= 2.0.0), utils, uuid, vctrs (>= 0.3.0), withr",,"covr, curl, downlit, dplyr (>= 1.0.0), knitr, mockr, rmarkdown, roxygen2, sodium, spelling, testthat (>= 3.0.0)",false
+googlesheets4,1.0.0,,MIT + file LICENSE,no,true,R (>= 3.3),"cellranger, cli (>= 3.0.0), curl, gargle (>= 1.2.0), glue (>= 1.3.0), googledrive (>= 2.0.0), httr, ids, magrittr, methods, purrr, rematch2, rlang (>= 0.4.11), tibble (>= 2.1.1), utils, vctrs (>= 0.2.3)",,"covr, readr, rmarkdown, sodium, spelling, testthat (>= 3.0.0), withr",false
+gower,1.0.0,,GPL-3,yes,true,,,,tinytest (>= 0.9.3),false
+GPfit,1.0-8,,GPL-2,no,true,,"lhs (>= 0.5), lattice (>= 0.18-8)",,testthat,false
+gridExtra,2.3,,GPL (>= 2),no,true,,"gtable, grid, grDevices, graphics, utils",,"ggplot2, egg, lattice, knitr, testthat",false
+gt,0.5.0,,MIT + file LICENSE,no,false,R (>= 3.2.0),"base64enc (>= 0.1-3), bitops (>= 1.0.6), checkmate (>= 2.0.0), commonmark (>= 1.7), dplyr (>= 1.0.8), fs (>= 1.5.2), ggplot2 (>= 3.3.5), glue (>= 1.6.1), htmltools (>= 0.5.2), magrittr (>= 2.0.2), rlang (>= 1.0.1), sass (>= 0.4.0), scales (>= 1.1.1), stringr (>= 1.4.0), tibble (>= 3.1.6), tidyselect (>= 1.1.1)",,"covr, knitr, paletteer, testthat (>= 2.1.0), RColorBrewer, lubridate, rmarkdown, rvest, shiny, tidyr, webshot, xml2",false
+gtable,0.3.0,,GPL-2,no,true,R (>= 3.0),grid,,"covr, testthat, knitr, rmarkdown, ggplot2, profvis",false
+hardhat,0.2.0,,MIT + file LICENSE,no,true,R (>= 2.10),"glue, rlang (>= 0.4.2), tibble, vctrs (>= 0.3.0)",,"covr, crayon, devtools, knitr, Matrix, modeldata (>= 0.0.2), recipes (>= 0.1.8), rmarkdown (>= 2.3), roxygen2, testthat (>= 2.1.0), usethis",false
+haven,2.5.0,,MIT + file LICENSE,yes,true,R (>= 3.4),"cli (>= 3.0.0), forcats (>= 0.2.0), hms, lifecycle, methods, readr (>= 0.1.0), rlang (>= 0.4.0), tibble, tidyselect, vctrs (>= 0.3.0)",cpp11,"covr, crayon, fs, knitr, pillar (>= 1.4.0), rmarkdown, testthat (>= 3.0.0)",false
+here,1.0.1,,MIT + file LICENSE,no,false,,rprojroot (>= 2.0.2),,"conflicted, covr, fs, knitr, palmerpenguins, plyr, readr, rlang, rmarkdown, testthat, uuid, withr",false
+highr,0.9,,GPL,no,true,R (>= 3.2.3),xfun (>= 0.18),,"knitr, markdown, testit",false
+hms,1.1.1,,MIT + file LICENSE,no,true,,"ellipsis (>= 0.3.2), lifecycle, methods, pkgconfig, rlang, vctrs (>= 0.3.8)",,"crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)",false
+htmltools,0.5.2,,GPL (>= 2),yes,true,R (>= 2.14.1),"utils, digest, grDevices, base64enc, rlang (>= 0.4.10), fastmap",,"markdown, testthat, withr, Cairo, ragg, shiny",false
+htmlwidgets,1.5.4,,MIT + file LICENSE,no,true,,"grDevices, htmltools (>= 0.3), jsonlite (>= 0.9.16), yaml",,"knitr (>= 1.8), rmarkdown, testthat",false
+httpuv,1.6.5,,GPL (>= 2) | file LICENSE,yes,true,R (>= 2.15.1),"Rcpp (>= 1.0.7), utils, R6, promises, later (>= 0.8.0)","Rcpp, later","testthat, callr, curl, websocket",false
+httr,1.4.3,,MIT + file LICENSE,no,false,R (>= 3.2),"curl (>= 3.0.0), jsonlite, mime, openssl (>= 0.8), R6",,"covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat (>= 0.8.0), xml2",false
+httr2,0.2.1,,MIT + file LICENSE,no,false,R (>= 3.4),"cli (>= 3.0.0), curl, glue, magrittr, openssl, R6, rappdirs, rlang (>= 1.0.0), withr",,"askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite, knitr, purrr, rmarkdown, testthat (>= 3.0.0), tibble, webfakes, xml2",false
+hunspell,3.0.1,,GPL-2 | LGPL-2.1 | MPL-1.1,yes,true,R (>= 3.0.2),"Rcpp, digest",Rcpp (>= 0.12.12),"spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr, stopwords, rmarkdown",false
+ids,1.0.1,,MIT + file LICENSE,no,true,,"openssl, uuid",,"knitr, rcorpora, rmarkdown, testthat",false
+igraph,1.3.1,,GPL (>= 2),yes,true,methods,"graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0), stats, utils",,"ape, graph, igraphdata, rgl, scales, stats4, tcltk, testthat, withr, digest",false
+infer,1.0.0,,CC0,no,true,R (>= 3.5.0),"dplyr (>= 0.7.0), ggplot2, glue (>= 1.3.0), grDevices, magrittr, methods, purrr, rlang (>= 0.2.0), tibble, broom, tidyr, generics, patchwork",,"covr, devtools (>= 1.12.0), fs, knitr, nycflights13, rmarkdown, stringr, testthat, vdiffr (>= 1.0.0)",false
+influenceR,0.1.0.1,,GPL-2,yes,true,R (>= 3.2.0),"igraph (>= 1.0.1), Matrix (>= 1.1-4), methods, utils",,testthat,false
+ini,0.3.1,,GPL-3,no,true,,,,testthat,false
+ipred,0.9-12,,GPL (>= 2),yes,true,R (>= 2.10),"rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim",,"mvtnorm, mlbench, TH.data, randomForest, party",false
+isoband,0.2.5,,MIT + file LICENSE,yes,true,,"grid, utils",,"covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf, testthat, xml2",false
+iterators,1.0.14,,Apache License (== 2.0),no,true,"R (>= 2.5.0), utils",,,"RUnit, foreach",false
+jose,1.2.0,,MIT + file LICENSE,no,false,openssl (>= 1.2.1),jsonlite,,"spelling, testthat, knitr, rmarkdown",false
+jpeg,0.1-9,,GPL-2 | GPL-3,yes,true,R (>= 2.9.0),,,,false
+jquerylib,0.1.4,,MIT + file LICENSE,no,true,,htmltools,,testthat,false
+jsonlite,1.8.0,,MIT + file LICENSE,yes,true,methods,,,"httr, curl, vctrs, testthat, knitr, rmarkdown, R.rsp, sf",false
+KernSmooth,2.23-20,,Unlimited,yes,true,"R (>= 2.5.0), stats",,,"MASS, carData",false
+KernSmooth,2.23-20,4.3.0/Recommended,Unlimited,yes,true,"R (>= 2.5.0), stats",,,"MASS, carData",false
+knitr,1.39,,GPL,no,true,R (>= 3.3.0),"evaluate (>= 0.15), highr, methods, stringr (>= 0.6), yaml (>= 2.1.19), xfun (>= 0.29), tools",,"markdown, formatR, testit, digest, rgl (>= 0.95.1201), codetools, rmarkdown, htmlwidgets (>= 0.7), webshot, tikzDevice (>= 0.10), tinytex, reticulate (>= 1.4), JuliaCall (>= 0.11.1), magick, png, jpeg, gifski, xml2 (>= 1.2.0), httr, DBI (>= 0.4-1), showtext, tibble, sass, bslib, ragg, styler (>= 1.2.0), targets (>= 0.6.0)",false
+labeling,0.4.2,,MIT + file LICENSE | Unlimited,no,true,,"stats, graphics",,,false
+later,1.3.0,,MIT + file LICENSE,yes,false,,"Rcpp (>= 0.12.9), rlang",Rcpp,"knitr, rmarkdown, testthat (>= 2.1.0)",false
+lattice,0.20-45,,GPL (>= 2),yes,true,R (>= 3.0.0),"grid, grDevices, graphics, stats, utils",,"KernSmooth, MASS, latticeExtra",false
+lattice,0.20-45,4.3.0/Recommended,GPL (>= 2),yes,true,R (>= 3.0.0),"grid, grDevices, graphics, stats, utils",,"KernSmooth, MASS, latticeExtra",false
+lava,1.6.10,,GPL-3,no,true,R (>= 3.0),"future.apply, progressr, grDevices, graphics, methods, numDeriv, stats, survival, SQUAREM, utils",,"KernSmooth, Matrix, Rgraphviz, data.table, ellipse, fields, geepack, gof (>= 0.9), graph, knitr, bookdown, rmarkdown, igraph (>= 0.6), lava.tobit (>= 0.4.7), lavaSearch2, lme4, magrittr, mets (>= 1.1), nlme, optimx, polycor, quantreg, rgl, R.rsp (>= 0.40), testthat (>= 0.11), visNetwork, zoo",false
+lazyeval,0.2.2,,GPL-3,yes,true,R (>= 3.1.0),,,"knitr, rmarkdown (>= 0.2.65), testthat, covr",false
+leaflet,2.1.1,,GPL-3,no,true,R (>= 3.1.0),"base64enc, crosstalk, htmlwidgets (>= 1.5.4), htmltools, magrittr, markdown, methods, png, RColorBrewer, raster, scales (>= 1.0.0), sp, stats, viridis (>= 0.5.1), leaflet.providers (>= 1.8.0)",,"knitr, maps, sf (>= 0.9-6), shiny, rgdal, rgeos, R6, RJSONIO, purrr, testthat (>= 3.0.0), s2",false
+leaflet.providers,1.9.0,,BSD_2_clause + file LICENSE,no,true,R (>= 2.10),,,"V8, jsonlite, testthat (>= 2.1.0)",false
+lhs,1.1.5,,GPL-3,yes,true,R (>= 3.4.0),Rcpp,Rcpp,"testthat, assertthat, DoE.base, knitr, rmarkdown",false
+lifecycle,1.0.1,,MIT + file LICENSE,no,false,R (>= 3.3),"glue, rlang (>= 0.4.10)",,"covr, crayon, lintr, tidyverse, knitr, rmarkdown, testthat (>= 3.0.1), tools, tibble, vctrs",false
+lintr,2.0.1,,MIT + file LICENSE,no,false,R (>= 3.2),"rex, crayon, codetools, cyclocomp, testthat (>= 2.2.1), digest, rstudioapi (>= 0.2), httr (>= 1.2.1), jsonlite, knitr, stats, utils, xml2 (>= 1.0.0), xmlparsedata (>= 1.0.3)",,"rmarkdown, mockery",false
+listenv,0.8.0,,LGPL (>= 2.1),no,true,R (>= 3.1.2),,,"R.utils, R.rsp, markdown",false
+lobstr,1.1.1,,GPL-3,yes,false,R (>= 3.2),"crayon, Rcpp, rlang (>= 0.3.0)",Rcpp,"covr, pillar, pkgdown, testthat",false
+lpSolve,5.6.15,,LGPL-2,yes,true,,,,,false
+lubridate,1.8.0,,GPL (>= 2),yes,true,"methods, R (>= 3.2)",generics,cpp11 (>= 0.2.7),"covr, knitr, testthat (>= 2.1.0), vctrs (>= 0.3.0), rmarkdown",false
+magick,2.7.3,,MIT + file LICENSE,yes,true,,"Rcpp (>= 0.12.12), magrittr, curl",Rcpp,"av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown, rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract (>= 2.0), gifski",false
+magrittr,2.0.3,,MIT + file LICENSE,yes,true,R (>= 3.4.0),,,"covr, knitr, rlang, rmarkdown, testthat",false
+markdown,1.1,,GPL-2,yes,true,R (>= 2.11.1),"utils, xfun, mime (>= 0.3)",,"knitr, RCurl",false
+MASS,7.3-57,,GPL-2 | GPL-3,yes,true,"R (>= 3.3.0), grDevices, graphics, stats, utils",methods,,"lattice, nlme, nnet, survival",false
+MASS,7.3-57,4.3.0/Recommended,GPL-2 | GPL-3,yes,true,"R (>= 3.3.0), grDevices, graphics, stats, utils",methods,,"lattice, nlme, nnet, survival",false
+Matrix,1.4-1,,GPL (>= 2) | file LICENCE,yes,true,R (>= 3.5.0),"methods, graphics, grid, stats, utils, lattice",,"expm, MASS",false
+Matrix,1.4-1,4.3.0/Recommended,GPL (>= 2) | file LICENCE,yes,true,R (>= 3.5.0),"methods, graphics, grid, stats, utils, lattice",,"expm, MASS",false
+meltr,1.0.0,,MIT + file LICENSE,yes,false,R (>= 2.10),"cli, methods, R6, rlang, tibble",cpp11,"clipr, covr, crayon, curl, readr, testthat (>= 3.0.0), withr",false
+memoise,2.0.1,,MIT + file LICENSE,no,false,,"rlang (>= 0.4.10), cachem",,"digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr, testthat",false
+mgcv,1.8-40,,GPL (>= 2),yes,true,"R (>= 3.6.0), nlme (>= 3.1-64)","methods, stats, graphics, Matrix, splines, utils",,"parallel, survival, MASS",false
+mgcv,1.8-40,4.3.0/Recommended,GPL (>= 2),yes,true,"R (>= 3.6.0), nlme (>= 3.1-64)","methods, stats, graphics, Matrix, splines, utils",,"parallel, survival, MASS",false
+mime,0.12,,GPL,yes,true,,tools,,,false
+miniUI,0.1.1.1,,GPL-3,no,true,,"shiny (>= 0.13), htmltools (>= 0.3), utils",,,false
+mockery,0.4.3,,MIT + file LICENSE,no,true,,testthat,,"knitr, R6, rmarkdown (>= 1.0)",false
+mockr,0.2.0,,GPL-3,no,true,,"rlang, withr",,"covr, fs, knitr, pkgload, rmarkdown, testthat, usethis",false
+modeldata,0.1.1,,MIT + file LICENSE,no,true,R (>= 2.10),,,covr,false
+modelr,0.1.8,,GPL-3,no,true,R (>= 3.2),"broom, magrittr, purrr (>= 0.2.2), rlang (>= 0.2.0), tibble, tidyr (>= 0.8.0), tidyselect, vctrs",,"compiler, covr, ggplot2, testthat",false
+munsell,0.5.0,,MIT + file LICENSE,no,true,,"colorspace, methods",,"ggplot2, testthat",false
+nanotime,0.3.6,,GPL (>= 2),yes,true,,"methods, bit64, RcppCCTZ (>= 0.2.9), zoo","Rcpp, RcppCCTZ, RcppDate","tinytest, data.table, xts",false
+nlme,3.1-157,,GPL (>= 2),yes,true,R (>= 3.5.0),"graphics, stats, utils, lattice",,"Hmisc, MASS, SASmixed",false
+nlme,3.1-157,4.3.0/Recommended,GPL (>= 2),yes,true,R (>= 3.5.0),"graphics, stats, utils, lattice",,"Hmisc, MASS, SASmixed",false
+nnet,7.3-17,,GPL-2 | GPL-3,yes,true,"R (>= 3.0.0), stats, utils",,,MASS,false
+nnet,7.3-17,4.3.0/Recommended,GPL-2 | GPL-3,yes,true,"R (>= 3.0.0), stats, utils",,,MASS,false
+numDeriv,2016.8-1.1,,GPL-2,no,true,R (>= 2.11.1),,,,false
+nycflights13,1.0.2,,CC0,no,true,R (>= 3.2),tibble,,dplyr,false
+openssl,2.0.1,,MIT + file LICENSE,yes,true,,askpass,,"curl, testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite, jose, sodium",false
+oskeyring,0.1.3,,MIT + file LICENSE,yes,true,,,,"askpass, testthat, withr",false
+packrat,0.7.0,,GPL-2,no,true,R (>= 3.0.0),"tools, utils",,"testthat (>= 3.0.0), devtools, httr, knitr, rmarkdown",false
+pak,0.3.0,,GPL-3,no,false,R (>= 3.2),"tools, utils",,"callr (>= 3.7.0), cli (>= 3.2.0), covr, curl (>= 4.3.2), desc (>= 1.4.1), digest, distro, filelock (>= 1.0.2), gitcreds, glue (>= 1.6.2), mockery, pingr, jsonlite (>= 1.8.0), pkgcache (>= 2.0.1), pkgdepends (>= 0.3.0), pkgsearch (>= 3.1.0), prettyunits, processx (>= 3.5.2), ps (>= 1.6.0), rprojroot (>= 2.0.2), rstudioapi, testthat, withr",false
+paletteer,1.4.0,,GPL-3,no,true,R (>= 2.10),"prismatic, rematch2, rlang, rstudioapi",,"covr, gameofthrones (>= 1.0.0), ggplot2 (>= 3.3.0), ggthemes (>= 4.0.0), harrypotter (>= 2.1.0), knitr, oompaBase, palr, pals, rmarkdown, scico, testthat (>= 2.1.0), vdiffr, viridisLite",false
+palmerpenguins,0.1.0,,CC0,no,true,R (>= 2.10),,,"knitr, rmarkdown, tibble, ggplot2, dplyr, tidyr, recipes",false
+parallelly,1.31.1,,LGPL (>= 2.1),no,true,,"parallel, tools, utils",,,false
+parsedate,1.3.0,,GPL-2,yes,true,,,,"covr, testthat, withr",false
+parsnip,0.2.1,,MIT + file LICENSE,no,true,R (>= 2.10),"cli, dplyr (>= 0.8.0.1), generics (>= 0.1.0.9000), ggplot2, globals, glue, hardhat (>= 0.1.6.9001), lifecycle, magrittr, prettyunits, purrr, rlang (>= 0.3.1), stats, tibble (>= 2.1.1), tidyr (>= 1.0.0), utils, vctrs (>= 0.2.0), withr",,"C50, covr, dials (>= 0.0.10.9001), earth, tensorflow, ggrepel, keras, kernlab, kknn, knitr, LiblineaR, MASS, Matrix, mgcv, modeldata, nlme, ranger (>= 0.12.0), remotes, rmarkdown, rpart, sparklyr (>= 1.0.0), survival, testthat, xgboost (>= 1.5.0.1)",false
+patchwork,1.1.1,,MIT + file LICENSE,no,true,,"ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils, graphics",,"knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>= 2.1.0), vdiffr, covr, png",false
+pillar,1.7.0,,MIT + file LICENSE,no,false,,"cli (>= 2.3.0), crayon (>= 1.3.4), ellipsis (>= 0.3.2), fansi, glue, lifecycle, rlang (>= 0.3.0), utf8 (>= 1.1.0), utils, vctrs (>= 0.3.8)",,"bit64, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr, lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown, scales, stringi, survival, testthat (>= 3.1.1), tibble, units (>= 0.7.2), vdiffr, withr",false
+pingr,2.0.1,,MIT + file LICENSE,yes,true,,"processx, utils",,"covr, testthat",false
+pkgbuild,1.3.1,,MIT + file LICENSE,no,false,R (>= 3.1),"callr (>= 3.2.0), cli, crayon, desc, prettyunits, R6, rprojroot, withr (>= 2.3.0)",,"Rcpp, cpp11, testthat, covr",false
+pkgcache,2.0.1,,MIT + file LICENSE,yes,false,R (>= 3.1),"callr (>= 2.0.4.9000), cli (>= 3.2.0), curl (>= 3.2), filelock, glue, jsonlite, prettyunits, R6, processx (>= 3.3.0.9001), rappdirs, tools, utils",,"covr, debugme, desc, fs, mockery, pillar, pingr, rprojroot, sessioninfo, spelling, testthat, webfakes, withr",false
+pkgconfig,2.0.3,,MIT + file LICENSE,no,true,,utils,,"covr, testthat, disposables (>= 1.0.3)",false
+pkgdepends,0.3.1,,MIT + file LICENSE,no,false,R (>= 3.4),"callr (>= 3.3.1), cli (>= 2.1.0), crayon, curl, desc (>= 1.2.0), filelock (>= 1.0.2), glue, jsonlite, lpSolve, pkgbuild (>= 1.0.2), pkgcache (>= 2.0.0), prettyunits (>= 1.1.1), processx (>= 3.4.2), ps, R6, rprojroot, stats, utils, withr (>= 2.1.1), zip (>= 2.1.0)",,"asciicast, covr, debugme, digest, fansi, fs, htmlwidgets, mockery, pingr (>= 2.0.0), rmarkdown, rstudioapi, spelling, testthat, tibble, webfakes",false
+pkgdown,2.0.3,,MIT + file LICENSE,no,false,R (>= 3.1.0),"bslib (>= 0.3.1), callr (>= 2.0.2), crayon, desc, digest, downlit (>= 0.4.0), fs (>= 1.4.0), httr (>= 1.4.2), jsonlite, magrittr, memoise, purrr, ragg, rlang (>= 1.0.0), rmarkdown (>= 1.1.9007), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1), yaml",,"covr, diffviewer, evaluate, htmltools, htmlwidgets, knitr, lifecycle, methods, openssl, pkgload (>= 1.0.2), rsconnect, rstudioapi, rticles, sass, testthat (>= 3.1.3), tools",false
+pkgload,1.2.4,,GPL-3,no,false,,"cli, crayon, desc, methods, rlang, rprojroot, rstudioapi, utils, withr",,"bitops, covr, pkgbuild, Rcpp, testthat",false
+pkgsearch,3.1.0,,MIT + file LICENSE,no,true,,"curl, jsonlite, parsedate (>= 1.3.0), prettyunits",,"mockery, covr, memoise, pillar, pingr (>= 2.0.0), rstudioapi, shiny, shinyjs, shinyWidgets, testthat (>= 2.1.0), whoami",false
+plogr,0.2.0,,MIT + file LICENSE,no,true,,,,Rcpp,false
+plyr,1.8.7,,MIT + file LICENSE,yes,true,R (>= 3.1.0),Rcpp (>= 0.11.0),Rcpp,"abind, covr, doParallel, foreach, iterators, itertools, tcltk, testthat",false
+png,0.1-7,,GPL-2 | GPL-3,yes,true,R (>= 2.9.0),,,,false
+praise,1.0.0,,MIT + file LICENSE,no,true,,,,testthat,false
+prettycode,1.1.0,,MIT + file LICENSE,no,true,,"crayon, utils",,"covr, mockery, rstudioapi, testthat, withr",false
+prettydoc,0.4.1,,Apache License (>= 2.0),no,true,,rmarkdown (>= 1.17),,"knitr, KernSmooth",false
+prettyunits,1.1.1,,MIT + file LICENSE,no,true,,,,"codetools, covr, testthat",false
+prismatic,1.1.0,,MIT + file LICENSE,no,true,R (>= 3.2),"graphics, farver (>= 2.0.1), grDevices",,"covr, crayon, testthat (>= 3.0.0)",false
+pROC,1.18.0,,GPL (>= 3),yes,true,R (>= 2.14),"methods, plyr, Rcpp (>= 0.11.1)",Rcpp,"microbenchmark, tcltk, MASS, logcondens, doParallel, testthat, vdiffr, ggplot2",false
+processx,3.5.3,,MIT + file LICENSE,yes,false,R (>= 3.4.0),"ps (>= 1.2.0), R6, utils",,"callr (>= 3.7.0), cli (>= 1.1.0), codetools, covr, curl, debugme, parallel, testthat (>= 3.0.0), withr",false
+prodlim,2019.11.13,,GPL (>= 2),yes,true,R (>= 2.9.0),"Rcpp (>= 0.11.5), stats, grDevices, graphics, survival, KernSmooth, lava",Rcpp,,false
+profmem,0.6.0,,LGPL (>= 2.1),no,true,,utils,,"R.rsp, markdown, microbenchmark",false
+progress,1.2.2,,MIT + file LICENSE,no,false,,"hms, prettyunits, R6, crayon",,"Rcpp, testthat, withr",false
+progressr,0.10.0,,GPL (>= 3),no,true,R (>= 3.5.0),"digest, utils",,"graphics, tcltk, beepr, crayon, pbmcapply, progress, purrr, foreach, plyr, doFuture, future, future.apply, furrr, rstudioapi, shiny, commonmark, base64enc, tools",false
+promises,1.2.0.1,,MIT + file LICENSE,yes,true,,"R6, Rcpp, later, rlang, stats, magrittr","later, Rcpp","testthat, future (>= 1.21.0), fastmap (>= 1.1.0), purrr, knitr, rmarkdown, vembedr, spelling",false
+pryr,0.1.5,,GPL-2,yes,true,R (>= 3.1.0),"stringr, codetools, methods, Rcpp (>= 0.11.0), lobstr",Rcpp,testthat (>= 0.8.0),false
+ps,1.7.0,,MIT + file LICENSE,yes,false,R (>= 3.4),utils,,"callr, covr, curl, pingr, processx (>= 3.1.0), R6, rlang, testthat (>= 3.0.0), tibble",false
+purrr,0.3.4,,GPL-3 | file LICENSE,yes,true,R (>= 3.2),"magrittr (>= 1.5), rlang (>= 0.3.1)",,"covr, crayon, dplyr (>= 0.7.8), knitr, rmarkdown, testthat, tibble, tidyselect",false
+R.cache,0.15.0,,LGPL (>= 2.1),no,true,R (>= 2.14.0),"utils, R.methodsS3 (>= 1.8.1), R.oo (>= 1.24.0), R.utils (>= 2.10.1), digest (>= 0.6.13)",,,false
+R.methodsS3,1.8.1,,LGPL (>= 2.1),no,true,R (>= 2.13.0),utils,,codetools,false
+R.oo,1.24.0,,LGPL (>= 2.1),no,true,"R (>= 2.13.0), R.methodsS3 (>= 1.8.0)","methods, utils",,tools,false
+R.utils,2.11.0,,LGPL (>= 2.1),no,true,"R (>= 2.14.0), R.oo (>= 1.24.0)","methods, utils, tools, R.methodsS3 (>= 1.8.1)",,digest (>= 0.6.10),false
+R6,2.5.1,,MIT + file LICENSE,no,false,R (>= 3.0),,,"testthat, pryr",false
+ragg,1.2.2,,MIT + file LICENSE,yes,true,,"systemfonts (>= 1.0.3), textshaping (>= 0.3.0)","systemfonts, textshaping","covr, testthat, grid, graphics",false
+rappdirs,0.3.3,,MIT + file LICENSE,yes,true,R (>= 3.2),,,"roxygen2, testthat (>= 3.0.0), covr, withr",false
+raster,3.5-15,,GPL (>= 3),yes,true,"sp (>= 1.4-5), R (>= 3.5.0)","Rcpp, methods, terra (>= 1.5-12)",Rcpp,"rgdal (>= 1.5-23), rgeos (>= 0.5-3), ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf, tinytest, gstat, fields, exactextractr",false
+rcmdcheck,1.4.0,,MIT + file LICENSE,no,false,,"callr (>= 3.1.1.9000), cli (>= 3.0.0), curl, desc (>= 1.2.0), digest, pkgbuild, prettyunits, R6, rprojroot, sessioninfo (>= 1.1.1), utils, withr, xopen",,"covr, knitr, mockery, processx, ps, rmarkdown, svglite, testthat, webfakes",false
+RColorBrewer,1.1-3,,Apache License 2.0,no,true,R (>= 2.0.0),,,,false
+Rcpp,1.0.8.3,,GPL (>= 2),yes,true,,"methods, utils",,"tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)",false
+RcppCCTZ,0.2.10,,GPL (>= 2),yes,true,,Rcpp (>= 0.11.0),Rcpp,tinytest,false
+RcppDate,0.0.3,,GPL (>= 2),no,true,,,,Rcpp,false
+RcppTOML,0.1.7,,GPL (>= 2),yes,true,R (>= 3.3.0),Rcpp (>= 0.11.5),Rcpp,tinytest,false
+readr,2.1.2,,MIT + file LICENSE,yes,true,R (>= 3.1),"cli (>= 3.0.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>= 0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.5.6)","cpp11, tzdb (>= 0.1.1)","covr, curl, datasets, knitr, rmarkdown, spelling, stringi, testthat (>= 3.1.2), tzdb (>= 0.1.1), waldo, withr, xml2",false
+readxl,1.4.0,,MIT + file LICENSE,yes,true,R (>= 3.4),"cellranger, tibble (>= 2.0.1), utils","cpp11 (>= 0.4.0), progress","knitr, rmarkdown, testthat (>= 3.0.0)",false
+recipes,0.2.0,,MIT + file LICENSE,no,true,"dplyr, R (>= 3.1)","ellipsis, generics (>= 0.1.0.9000), glue, gower, hardhat (>= 0.1.6.9001), ipred (>= 0.9-12), lifecycle, lubridate, magrittr, Matrix, purrr (>= 0.2.3), rlang (>= 0.4.0), stats, tibble, tidyr (>= 1.0.0), tidyselect (>= 1.1.0), timeDate, utils, vctrs, withr",,"covr, ddalpha, dials (>= 0.0.10.9001), ggplot2, igraph, kernlab, knitr, modeldata, parsnip (>= 0.1.7), RANN, RcppRoll, rmarkdown, rpart, rsample, RSpectra, testthat (>= 3.0.0), workflows, xml2",false
+rematch,1.0.1,,MIT + file LICENSE,no,true,,,,"covr, testthat",false
+rematch2,2.1.2,,MIT + file LICENSE,no,false,,tibble,,"covr, testthat",false
+remotes,2.4.2,,MIT + file LICENSE,no,false,R (>= 3.0.0),"methods, stats, tools, utils",,"brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr, mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot, testthat, webfakes, withr",false
+reprex,2.0.1,,MIT + file LICENSE,no,true,R (>= 3.3),"callr (>= 3.6.0), cli (>= 2.3.1), clipr (>= 0.4.0), fs, glue, knitr (>= 1.23), rlang (>= 0.4.0), rmarkdown, rstudioapi, utils, withr (>= 2.3.0)",,"covr, fortunes, miniUI, mockr, rprojroot, sessioninfo, shiny, spelling, styler (>= 1.2.0), testthat (>= 3.0.2)",false
+reticulate,1.25,,Apache License 2.0,yes,true,R (>= 3.0),"Matrix, Rcpp (>= 0.12.7), RcppTOML, graphics, here, jsonlite, methods, png, rappdirs, utils, withr",Rcpp,"callr, knitr, rlang, rmarkdown, testthat",false
+rex,1.2.1,,MIT + file LICENSE,no,true,,lazyeval,,"covr, dplyr, ggplot2, Hmisc, knitr, magrittr, rmarkdown, roxygen2, rvest, stringr, testthat",false
+rhub,1.1.1,,MIT + file LICENSE,no,true,,"assertthat, callr, cli (>= 1.1.0), crayon, desc, digest, httr, jsonlite, parsedate, pillar, prettyunits, processx, R6, rappdirs, rcmdcheck (>= 1.2.1), rematch, tibble, utils, uuid, whoami, withr",,"covr, testthat, knitr, rmarkdown",false
+rlang,1.0.2,,MIT + file LICENSE,yes,false,R (>= 3.4.0),utils,,"cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr, methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble, usethis, vctrs (>= 0.2.3), withr",false
+rmarkdown,2.14,,GPL-3,no,true,R (>= 3.0),"bslib (>= 0.2.5.1), evaluate (>= 0.13), htmltools (>= 0.3.5), jquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>= 1.2.0), tinytex (>= 0.31), tools, utils, xfun (>= 0.30), yaml (>= 2.1.19)",,"digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3), tibble, tufte, vctrs, withr (>= 2.4.2)",false
+roxygen2,7.2.0,,MIT + file LICENSE,yes,false,R (>= 3.3),"brew, cli (>= 3.3.0), commonmark, desc (>= 1.2.0), digest, knitr, methods, pkgload (>= 1.0.2), purrr (>= 0.3.3), R6 (>= 2.1.2), rlang (>= 1.0.0), stringi, stringr (>= 1.0.0), utils, withr, xml2",cpp11,"covr, R.methodsS3, R.oo, rmarkdown, testthat (>= 3.1.2)",false
+rpart,4.1.16,,GPL-2 | GPL-3,yes,true,"R (>= 2.15.0), graphics, stats, grDevices",,,survival,false
+rpart,4.1.16,4.3.0/Recommended,GPL-2 | GPL-3,yes,true,"R (>= 2.15.0), graphics, stats, grDevices",,,survival,false
+rprojroot,2.0.3,,MIT + file LICENSE,no,false,R (>= 3.0.0),,,"covr, knitr, lifecycle, mockr, rmarkdown, testthat (>= 3.0.0), withr",false
+rsample,0.1.1,,MIT + file LICENSE,no,true,R (>= 3.2),"dplyr (>= 1.0.0), ellipsis, furrr, generics, lifecycle, methods, purrr, rlang (>= 0.4.10), slider (>= 0.1.5), tibble, tidyr, tidyselect, vctrs (>= 0.3.0)",,"broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4), rmarkdown, stats, testthat, utils, xml2",false
+rsconnect,0.8.25,,GPL-2,no,true,R (>= 3.0.0),"curl, digest, jsonlite, openssl, packrat (>= 0.6), rstudioapi (>= 0.5), tools, yaml (>= 2.1.5)",,"RCurl, callr, httpuv, knitr, plumber (>= 0.3.2), reticulate, rmarkdown (>= 1.1), shiny, sourcetools, testthat, xtable",false
+RSQLite,2.2.14,,LGPL (>= 2.1),yes,true,R (>= 3.1.0),"bit64, blob (>= 1.2.0), DBI (>= 1.1.0), memoise, methods, pkgconfig, Rcpp (>= 1.0.7)","plogr (>= 0.2.0), Rcpp","callr, DBItest (>= 1.7.0), gert, gh, knitr, rmarkdown, hms, rvest, testthat, xml2",false
+rstudioapi,0.13,,MIT + file LICENSE,no,true,,,,"testthat, knitr, rmarkdown, clipr",false
+rticles,0.23,,GPL-3,no,true,,"knitr (>= 1.30), rmarkdown (>= 2.5), tinytex (>= 0.30), utils, xfun, yaml",,"covr, bookdown, testit, testthat (>= 3.0.0), xtable",false
+rversions,2.1.1,,MIT + file LICENSE,no,true,,"curl, utils, xml2 (>= 1.0.0)",,"mockery, testthat",false
+rvest,1.0.2,,MIT + file LICENSE,no,true,R (>= 3.2),"httr (>= 0.5), lifecycle (>= 1.0.0), magrittr, rlang (>= 0.4.10), selectr, tibble, xml2 (>= 1.3)",,"covr, glue, knitr, readr, rmarkdown, repurrrsive, spelling, stringi (>= 0.3.1), testthat (>= 3.0.2), webfakes",false
+sass,0.4.1,,MIT + file LICENSE,yes,true,,"fs, rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs",,"testthat, knitr, rmarkdown, withr, shiny, curl",false
+scales,1.2.0,,MIT + file LICENSE,no,false,R (>= 3.2),"farver (>= 2.0.3), labeling, lifecycle, munsell (>= 0.5), R6, RColorBrewer, rlang (>= 1.0.0), viridisLite",,"bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi, testthat (>= 3.0.0), waldo (>= 0.4.0)",false
+selectr,0.4-2,,BSD_3_clause + file LICENCE,no,true,R (>= 3.0),"methods, stringr, R6",,"testthat, XML, xml2",false
+servr,0.24,,GPL,no,true,R (>= 3.0.0),"mime (>= 0.2), httpuv (>= 1.5.2), xfun, jsonlite",,"tools, later, rstudioapi, knitr (>= 1.9), rmarkdown",false
+sessioninfo,1.2.2,,GPL-2,no,false,R (>= 2.10),"cli (>= 3.1.0), tools, utils",,"callr, covr, mockery, reticulate, rmarkdown, testthat, withr",false
+shiny,1.7.1,,GPL-3 | file LICENSE,no,true,"R (>= 3.0.2), methods","utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.2.1), htmltools (>= 0.5.2), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>= 1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.0), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)",,"datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>= 1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0), magrittr, shinytest (>= 1.4.0.9003), yaml, future, dygraphs, ragg, showtext, sass",false
+shinyBS,0.61.1,,GPL-3,no,true,,"shiny (>= 0.11), htmltools",,,false
+slider,0.2.2,,MIT + file LICENSE,yes,true,R (>= 3.3.0),"ellipsis (>= 0.3.1), glue, rlang (>= 0.4.5), vctrs (>= 0.3.6), warp",vctrs (>= 0.3.6),"covr, dplyr (>= 1.0.0), knitr, lubridate, rmarkdown, testthat (>= 3.0.0)",false
+sodium,1.2.0,,MIT + file LICENSE,yes,true,,,,"knitr, rmarkdown",false
+sourcetools,0.1.7,,MIT + file LICENSE,yes,true,R (>= 3.0.2),,,testthat,false
+sp,1.4-7,,GPL (>= 2),yes,true,"R (>= 3.0.0), methods","utils, stats, graphics, grDevices, lattice, grid",,"RColorBrewer, rgdal (>= 1.2-3), rgeos (>= 0.3-13), gstat, maptools, deldir, knitr, rmarkdown",false
+spelling,2.2,,MIT + file LICENSE,no,true,,"commonmark, xml2, hunspell (>= 3.0), knitr",,pdftools,false
+SQUAREM,2021.1,,GPL (>= 2),no,true,R (>= 3.0),,,setRNG,false
+stringi,1.7.6,,file LICENSE,yes,true,R (>= 3.1),"tools, utils, stats",,,false
+stringr,1.4.0,,GPL-2 | file LICENSE,no,true,R (>= 3.1),"glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)",,"covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat",false
+styler,1.7.0,,MIT + file LICENSE,no,false,R (>= 3.4.0),"cli (>= 3.1.1), magrittr (>= 2.0.0), purrr (>= 0.2.3), R.cache (>= 0.15.0), rematch2 (>= 2.0.1), rlang (>= 0.1.1), rprojroot (>= 1.1), tibble (>= 1.4.2), tools, withr (>= 1.0.0)",,"data.tree (>= 0.1.6), digest, dplyr, here, knitr, prettycode, rmarkdown, roxygen2, rstudioapi (>= 0.7), testthat (>= 2.1.0)",false
+survival,3.3-1,,LGPL (>= 2),yes,true,R (>= 3.5.0),"graphics, Matrix, methods, splines, stats, utils",,,false
+survival,3.3-1,4.3.0/Recommended,LGPL (>= 2),yes,true,R (>= 3.5.0),"graphics, Matrix, methods, splines, stats, utils",,,false
+svglite,2.1.0,,GPL (>= 2),yes,true,R (>= 3.0.0),systemfonts (>= 1.0.0),"cpp11, systemfonts","htmltools, testthat, xml2 (>= 1.0.0), covr, fontquiver (>= 0.2.0), knitr, rmarkdown",false
+sys,3.4,,MIT + file LICENSE,yes,true,,,,"unix (>= 1.4), spelling, testthat",false
+systemfonts,1.0.4,,MIT + file LICENSE,yes,true,R (>= 3.2.0),,cpp11 (>= 0.2.1),"testthat (>= 2.1.0), covr, knitr, rmarkdown, tools",false
+terra,1.5-21,,GPL (>= 3),yes,true,R (>= 3.5.0),"methods, Rcpp",Rcpp,"parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, igraph",false
+testthat,3.1.4,,MIT + file LICENSE,yes,false,R (>= 3.1),"brio, callr (>= 3.5.1), cli (>= 3.3.0), crayon (>= 1.3.4), desc, digest, ellipsis (>= 0.2.0), evaluate, jsonlite, lifecycle, magrittr, methods, pkgload, praise, processx, ps (>= 1.3.4), R6 (>= 2.2.0), rlang (>= 1.0.1), utils, waldo (>= 0.4.0), withr (>= 2.4.3)",,"covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, mockery, rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2",false
+textshaping,0.3.6,,MIT + file LICENSE,yes,true,R (>= 3.2.0),systemfonts (>= 1.0.0),"cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)","covr, knitr, rmarkdown",false
+tibble,3.1.7,,MIT + file LICENSE,yes,true,R (>= 3.1.0),"ellipsis (>= 0.3.2), fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods, pillar (>= 1.7.0), pkgconfig, rlang (>= 1.0.1), utils, vctrs (>= 0.3.8)",,"bench, bit64, blob, brio, callr, cli, covr, crayon (>= 1.3.4), DiagrammeR, dplyr, evaluate, formattable, ggplot2, hms, htmltools, knitr, lubridate, mockr, nycflights13, pkgbuild, pkgload, purrr, rmarkdown, stringi, testthat (>= 3.0.2), tidyr, withr",false
+tidymodels,0.2.0,,MIT + file LICENSE,no,false,R (>= 3.4),"broom (>= 0.7.12), cli (>= 3.2.0), conflicted (>= 1.1.0), dials (>= 0.1.0), dplyr (>= 1.0.8), ggplot2 (>= 3.3.5), hardhat (>= 0.2.0), infer (>= 1.0.0), modeldata (>= 0.1.1), parsnip (>= 0.2.1), purrr (>= 0.3.4), recipes (>= 0.2.0), rlang (>= 1.0.2), rsample (>= 0.1.1), rstudioapi (>= 0.13), tibble (>= 3.1.6), tidyr (>= 1.2.0), tune (>= 0.2.0), workflows (>= 0.2.5), workflowsets (>= 0.2.1), yardstick (>= 0.0.9)",,"covr, glue, knitr, rmarkdown, testthat (>= 3.0.0), xml2",false
+tidyr,1.2.0,,MIT + file LICENSE,yes,true,R (>= 3.1),"dplyr (>= 1.0.0), ellipsis (>= 0.1.0), glue, lifecycle, magrittr, purrr, rlang, tibble (>= 2.1.1), tidyselect (>= 1.1.0), utils, vctrs (>= 0.3.7)",cpp11 (>= 0.4.0),"covr, data.table, jsonlite, knitr, readr, repurrrsive (>= 1.0.0), rmarkdown, testthat (>= 3.0.0)",false
+tidyselect,1.1.2,,MIT + file LICENSE,yes,false,R (>= 3.2),"ellipsis, glue (>= 1.3.0), purrr (>= 0.3.2), rlang (>= 1.0.1), vctrs (>= 0.3.0)",,"covr, crayon, dplyr, knitr, magrittr, rmarkdown, testthat (>= 3.1.1), tibble (>= 2.1.3), withr",false
+tidyverse,1.3.1,,MIT + file LICENSE,no,false,R (>= 3.3),"broom (>= 0.7.6), cli (>= 2.4.0), crayon (>= 1.4.1), dbplyr (>= 2.1.1), dplyr (>= 1.0.5), dtplyr (>= 1.1.0), forcats (>= 0.5.1), googledrive (>= 1.0.1), googlesheets4 (>= 0.3.0), ggplot2 (>= 3.3.3), haven (>= 2.3.1), hms (>= 1.0.0), httr (>= 1.4.2), jsonlite (>= 1.7.2), lubridate (>= 1.7.10), magrittr (>= 2.0.1), modelr (>= 0.1.8), pillar (>= 1.6.0), purrr (>= 0.3.4), readr (>= 1.4.0), readxl (>= 1.3.1), reprex (>= 2.0.0), rlang (>= 0.4.10), rstudioapi (>= 0.13), rvest (>= 1.0.0), stringr (>= 1.4.0), tibble (>= 3.1.0), tidyr (>= 1.1.3), xml2 (>= 1.3.2)",,"covr, feather, glue, knitr, rmarkdown, testthat",false
+timeDate,3043.102,,GPL (>= 2),no,true,"R (>= 2.15.1), graphics, utils, stats, methods",,,"date, RUnit",false
+tinytex,0.39,,MIT + file LICENSE,no,true,,xfun (>= 0.29),,"testit, rstudioapi",false
+tune,0.2.0,,MIT + file LICENSE,no,true,R (>= 3.4),"cli (>= 2.0.0), dials (>= 0.0.10), dplyr (>= 1.0.0), foreach, generics (>= 0.1.2), ggplot2, glue, GPfit, hardhat (>= 0.2.0), lifecycle (>= 1.0.0), parsnip (>= 0.2.0), purrr (>= 0.3.2), recipes (>= 0.2.0), rlang (>= 0.4.0), rsample (>= 0.0.9), tibble (>= 3.1.0), tidyr, vctrs (>= 0.3.0), withr, workflows (>= 0.2.5), yardstick (>= 0.0.7)",,"covr, kernlab, knitr, modeldata, spelling, testthat (>= 3.0.0), xml2",false
+tzdb,0.3.0,,MIT + file LICENSE,yes,true,R (>= 3.4.0),,cpp11 (>= 0.4.2),"covr, testthat (>= 3.0.0)",false
+units,0.8-0,,GPL-2,yes,true,R (>= 3.0.2),Rcpp,Rcpp (>= 0.12.10),"NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat (>= 3.0.0), vdiffr, knitr, rmarkdown",false
+usethis,2.1.5,,MIT + file LICENSE,no,false,R (>= 3.4),"cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc (>= 1.4.0), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue (>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs, rlang (>= 0.4.10), rprojroot (>= 1.2), rstudioapi, stats, utils, whisker, withr (>= 2.3.0), yaml",,"covr, knitr, magick, mockr, pkgload, rmarkdown, roxygen2 (>= 7.1.2), spelling (>= 1.2), styler (>= 1.2.0), testthat (>= 3.1.0)",false
+utf8,1.2.2,,Apache License (== 2.0) | file LICENSE,yes,true,R (>= 2.10),,,"cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0), withr",false
+uuid,1.1-0,,MIT + file LICENSE,yes,true,R (>= 2.9.0),,,,false
+V8,4.2.0,,MIT + file LICENSE,yes,true,,"Rcpp (>= 0.12.12), jsonlite (>= 1.0), curl (>= 1.0), utils",Rcpp,"testthat, knitr, rmarkdown",false
+vctrs,0.4.1,,MIT + file LICENSE,yes,false,R (>= 3.3),"cli (>= 3.2.0), glue, rlang (>= 1.0.2)",,"bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr, pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>= 3.0.0), tibble (>= 3.1.3), withr, xml2, waldo (>= 0.2.0), zeallot",false
+vdiffr,1.0.4,,MIT + file LICENSE,yes,true,R (>= 3.2.0),"diffobj, glue, grDevices, htmltools, lifecycle, rlang, testthat (>= 3.0.3), xml2 (>= 1.0.0)",cpp11,"covr, ggplot2 (>= 3.2.0), roxygen2, withr",false
+vipor,0.4.5,,GPL (>= 2),no,true,R (>= 3.0.0),"stats, graphics",,"testthat, beeswarm, lattice, ggplot2, beanplot, vioplot, ggbeeswarm",false
+viridis,0.6.2,,MIT + file LICENSE,no,true,"R (>= 2.10), viridisLite (>= 0.4.0)","stats, ggplot2 (>= 1.0.1), gridExtra",,"hexbin (>= 1.27.0), scales, MASS, knitr, dichromat, colorspace, raster, rasterVis, httr, mapproj, vdiffr, svglite (>= 1.2.0), testthat, covr, rmarkdown, rgdal, maps",false
+viridisLite,0.4.0,,MIT + file LICENSE,no,true,R (>= 2.10),,,"hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr",false
+visNetwork,2.1.0,,MIT + file LICENSE,no,true,R (>= 3.0),"htmlwidgets, htmltools, jsonlite, magrittr, utils, methods, grDevices, stats",,"knitr, rmarkdown, webshot, igraph, rpart, shiny, shinyWidgets, colourpicker, sparkline, ggraph, tidygraph, flashClust",false
+vroom,1.5.7,,MIT + file LICENSE,yes,true,R (>= 3.1),"bit64, crayon, cli, glue, hms, lifecycle, methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0), tzdb (>= 0.1.1), vctrs (>= 0.2.0), tidyselect, withr","progress (>= 1.2.1), cpp11 (>= 0.2.0), tzdb (>= 0.1.1)","archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs, ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown, rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr, utils, waldo, xml2",false
+waldo,0.4.0,,MIT + file LICENSE,no,false,,"cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang (>= 1.0.0), tibble",,"covr, R6, testthat (>= 3.0.0), withr, xml2",false
+warp,0.2.0,,MIT + file LICENSE,yes,true,R (>= 3.2),,,"covr, testthat (>= 2.1.0), knitr, rmarkdown",false
+webfakes,1.1.3,,MIT + file LICENSE,yes,true,,"stats, tools, utils",,"callr, curl, glue, jsonlite, httr, httpuv, testthat (>= 3.0.0), withr, xml2",false
+webshot,0.5.3,,GPL-2,no,true,R (>= 3.0),"magrittr, jsonlite, callr",,"httpuv, knitr, rmarkdown, shiny",false
+whisker,0.4,,GPL-3,no,true,,,,markdown,false
+whoami,1.3.0,,MIT + file LICENSE,no,false,,"httr, jsonlite, utils",,"covr, mockery, testthat, withr",false
+withr,2.5.0,,MIT + file LICENSE,no,false,R (>= 3.2.0),"graphics, grDevices, stats",,"callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown (>= 2.12), RSQLite, testthat (>= 3.0.0)",false
+workflows,0.2.6,,MIT + file LICENSE,no,true,R (>= 3.2),"cli (>= 2.0.0), generics (>= 0.1.2), glue, hardhat (>= 0.2.0), lifecycle (>= 1.0.0), parsnip (>= 0.2.0), rlang (>= 1.0.1), tidyselect (>= 1.1.2), vctrs (>= 0.3.8)",,"butcher (>= 0.1.3), covr, dials (>= 0.1.0), knitr, magrittr, modeldata (>= 0.0.2), recipes (>= 0.2.0), rmarkdown, testthat (>= 3.0.0)",false
+workflowsets,0.2.1,,MIT + file LICENSE,no,true,R (>= 3.4),"cli, dplyr (>= 1.0.0), generics, ggplot2, hardhat (>= 0.1.6), lifecycle (>= 1.0.0), prettyunits, purrr, rlang, rsample (>= 0.0.9), stats, tibble (>= 3.1.0), tidyr, tune (>= 0.1.3), vctrs, withr, workflows (>= 0.2.4)",,"covr, dials, kknn, knitr, modeldata, parsnip (>= 0.2.0), recipes (>= 0.1.15), rmarkdown, spelling, testthat (>= 3.0.0), yardstick",false
+xaringan,0.24,,MIT + file LICENSE,no,true,,"htmltools, knitr (>= 1.30), servr (>= 0.13), xfun (>= 0.18), rmarkdown (>= 2.8)",,"rstudioapi, testit",false
+xfun,0.31,,MIT + file LICENSE,yes,true,,"stats, tools",,"testit, parallel, codetools, rstudioapi, tinytex (>= 0.30), mime, markdown, knitr, htmltools, remotes, pak, rhub, renv, curl, jsonlite, rmarkdown",false
+xml2,1.3.3,,MIT + file LICENSE,yes,false,R (>= 3.1.0),methods,,"covr, curl, httr, knitr, magrittr, mockery, rmarkdown, testthat (>= 2.1.0)",false
+xmlparsedata,1.0.5,,MIT + file LICENSE,no,true,R (>= 3.0.0),,,"covr, testthat, xml2",false
+xopen,1.0.0,,MIT + file LICENSE,no,true,R (>= 3.1),processx,,"ps, testthat",false
+xtable,1.8-4,,GPL (>= 2),no,true,R (>= 2.10.0),"stats, utils",,"knitr, plm, zoo, survival",false
+yaml,2.3.5,,BSD_3_clause + file LICENSE,yes,true,,,,RUnit,false
+yardstick,0.0.9,,MIT + file LICENSE,yes,true,R (>= 2.10),"dplyr (>= 1.0.0), generics, pROC (>= 1.15.0), rlang (>= 0.4.2), tidyselect, utils, vctrs (>= 0.3.6)",,"covr, crayon, ggplot2, knitr, probably (>= 0.0.6), purrr, rmarkdown, testthat (>= 3.0.0), tidyr",false
+ymlthis,0.1.5,,MIT + file LICENSE,no,false,R (>= 3.2),"crayon, fs, glue, magrittr, miniUI, purrr (>= 0.3.2), rlang (>= 0.4.0), rmarkdown (>= 2.10), rstudioapi, shiny, shinyBS, stringr, usethis (>= 1.5.0), whoami, withr, yaml",,"blogdown, bookdown, covr, knitr, pkgdown, prettydoc, roxygen2 (>= 7.0.0), spelling, testthat, xaringan",false
+zeallot,0.1.0,,MIT + file LICENSE,no,true,,,,"testthat, knitr, rmarkdown, purrr, magrittr",false
+zip,2.2.0,,MIT + file LICENSE,yes,false,,,,"covr, processx, R6, testthat, withr",false
+zoo,1.8-10,,GPL-2 | GPL-3,yes,true,"R (>= 3.1.0), stats","utils, graphics, grDevices, lattice (>= 0.20-27)",,"AER, coda, chron, fts, ggplot2 (>= 3.0.0), mondate, scales, stinepack, strucchange, timeDate, timeSeries, tis, tseries, xts",false
