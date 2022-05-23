@@ -65,8 +65,18 @@ rspm subscribe --repo=Validated --source=validated
 # ---------------------------------------------------
 
 # user
-/opt/R/4.0.2/bin/R -e 'install.packages(c("tidyverse","tidymodels","gt","shiny","rmarkdown"), repos = "http://ec2-3-144-73-13.us-east-2.compute.amazonaws.com/rspm/Validated/__linux__/bionic/latest")'
+# /opt/R/4.0.2/bin/R -e 'install.packages(c("tidyverse","tidymodels","gt","shiny","rmarkdown"), repos = "http://ec2-3-144-73-13.us-east-2.compute.amazonaws.com/rspm/Validated/__linux__/bionic/latest")'
 
 # root / system / all users
 # sudo /opt/R/4.0.2/bin/R -e 'install.packages(c("tidyverse","tidymodels","gt","shiny","rmarkdown"), repos = "http://ec2-3-144-73-13.us-east-2.compute.amazonaws.com/rspm/Validated/__linux__/bionic/latest")'
 
+# ---------------------------------------------------
+# Set the system "default repo"
+# ---------------------------------------------------
+
+# Append to the Rprofile.site
+# 
+# export R_HOME=/opt/R/4.0.2
+# echo 'options("repos" = c("RSPM" = "https://colorado.rstudio.com/rspm/classroom/__linux__/bionic/5478112"))' >> $R_HOME/lib/R/etc/Rprofile.site
+
+cat /opt/R/4.0.2/lib/R/etc/Rprofile.site
