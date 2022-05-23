@@ -15,10 +15,16 @@ docker exec -it rstudio-pm bash
 # pull in cran state
 rspm sync
 
+# create a "source"
+# a "source" is a collection of packages
+# this is a "placeholder" / empty bucket for us to put packages in
 rspm create source --name=validated --type=curated-cran
 
 # look at the source created
 rspm list sources
+
+# it has no packages in it
+
 
 # ---------------------------------------------------
 # example with a few packages
@@ -48,3 +54,15 @@ more example.csv
 # ---------------------------------------------------
 
 rspm create repo --name=Validated
+
+rspm subscribe --repo=Validated --source=validated
+
+# now packages are exposed in the UI
+
+
+# ---------------------
+# Install the packages elsewhere
+# ---------------------
+
+
+/opt/R/4.0.2/bin/R -e 'install.packages(c("tidyverse","tidymodels","gt","shiny","rmarkdown"), repos = "http://my-rspm-server.com/Validated/__linux__/bionic/latest")'
