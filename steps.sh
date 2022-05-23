@@ -80,3 +80,6 @@ rspm subscribe --repo=Validated --source=validated
 # echo 'options("repos" = c("RSPM" = "https://colorado.rstudio.com/rspm/classroom/__linux__/bionic/5478112"))' >> $R_HOME/lib/R/etc/Rprofile.site
 
 cat /opt/R/4.0.2/lib/R/etc/Rprofile.site
+
+# to block access to anything else - must use network restrictions
+# i.e. outbound access to GitHub, CRAN, etc. revoked
