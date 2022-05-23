@@ -82,4 +82,4 @@ rspm subscribe --repo=Validated --source=validated
 cat /opt/R/4.0.2/lib/R/etc/Rprofile.site
 
 # to block access to anything else - must use network restrictions
-# i.e. outbound access to GitHub, CRAN, etc. revoked
+# i.e. block outbound access to GitHub, CRAN, etc. with a firewall
