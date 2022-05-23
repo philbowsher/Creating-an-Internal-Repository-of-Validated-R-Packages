@@ -10,10 +10,15 @@ docker run --privileged -it --rm --name=rstudio-pm -v $(pwd)/rstudio-pm-demo:/da
 # ---------------------------------------------------
 
 docker exec -it rstudio-pm bash
+
+
 # pull in cran state
 rspm sync
 
 rspm create source --name=validated --type=curated-cran
+
+# look at the source created
+rspm list sources
 
 # ---------------------------------------------------
 # example with a few packages
@@ -24,11 +29,15 @@ rspm add --source=validated --include-suggests --csv-out example.csv --packages=
 # Created a file named example.csv that lists the packages that will be added by this action.
 # To complete this operation, execute this command with the --commit and --snapshot=2022-05-18 flags.
 
+more example.csv
+
+
+
 # ---------------------------------------------------
 # example with many packages
 # ---------------------------------------------------
 
-rspm add --source=validated --include-suggests --csv-out example.csv --packages=tidyverse,tidymodels,gt,lintr,xml2,pak,usethis,processx,httr,httr2,styler,desc,pillar,rlang,downlit,devtools,rprojroot,roxygen2,here,testthat,cachem,tidyselect,cpp11,cli,vctrs,pkgdown,R6,waldo,ps,remotes,pkgdepends,gh,scales,ymlthis,filelock,callr,withr,gert,fs,crayon,gert,backports,pkgcache,whoami,zip,sessioninfo,pkgbuild,brio,progress,pkgload,bench,gitcreds,rcmdcheck,commonmark,later,lifecycle,covr,gargle,clock,memoise,conflicted,fastmap,meltr,jose,rematch2,lobstr
+# rspm add --source=validated --include-suggests --csv-out example.csv --packages=tidyverse,tidymodels,gt,lintr,xml2,pak,usethis,processx,httr,httr2,styler,desc,pillar,rlang,downlit,devtools,rprojroot,roxygen2,here,testthat,cachem,tidyselect,cpp11,cli,vctrs,pkgdown,R6,waldo,ps,remotes,pkgdepends,gh,scales,ymlthis,filelock,callr,withr,gert,fs,crayon,gert,backports,pkgcache,whoami,zip,sessioninfo,pkgbuild,brio,progress,pkgload,bench,gitcreds,rcmdcheck,commonmark,later,lifecycle,covr,gargle,clock,memoise,conflicted,fastmap,meltr,jose,rematch2,lobstr
 
 # Created a file named example.csv that lists the packages that will be added by this action.
 # To complete this operation, execute this command with the --commit and --snapshot=2022-05-18 flags.
@@ -37,3 +46,5 @@ rspm add --source=validated --include-suggests --csv-out example.csv --packages=
 # NEXT STEPS:
 # create repo, change snapshot, read docs, etc.
 # ---------------------------------------------------
+
+rspm create repo --name=Validated
