@@ -4,10 +4,14 @@
 mkdir -p ./rstudio-pm-demo/
 docker run --privileged -it --rm --name=rstudio-pm -v $(pwd)/rstudio-pm-demo:/data/ -p 4242:4242 -e RSPM_LICENSE ghcr.io/rstudio/rstudio-package-manager:latest
 
-# to install on linux: wget ...rstudio-pm...deb && gdebi install rstudio-pm...deb
-
 # important! in another shell
 docker exec -it rstudio-pm bash
+
+# to install on linux, as of 2022-05-01
+# sudo apt update
+# sudo apt install gdebi-core
+# wget https://cdn.rstudio.com/package-manager/ubuntu/amd64/rstudio-pm_2022.04.0-7_amd64.deb
+# sudo gdebi rstudio-pm_2022.04.0-7_amd64.deb
 
 # ---------------------------------------------------
 # configure RSPM
