@@ -65,4 +65,4 @@ rspm subscribe --repo=Validated --source=validated
 # ---------------------
 
 
-/opt/R/4.0.2/bin/R -e 'install.packages(c("tidyverse","tidymodels","gt","shiny","rmarkdown"), repos = "http://my-rspm-server.com/Validated/__linux__/bionic/latest")'
+/opt/R/4.0.2/bin/R -e 'install.packages(c("tidyverse","tidymodels","gt","shiny","rmarkdown"), repos = "http://ec2-3-144-73-13.us-east-2.compute.amazonaws.com/rspm/Validated/__linux__/bionic/latest")'
