@@ -60,9 +60,13 @@ rspm subscribe --repo=Validated --source=validated
 # now packages are exposed in the UI
 
 
-# ---------------------
-# Install the packages elsewhere
-# ---------------------
+# ---------------------------------------------------
+# Install the packages into the user/system library
+# ---------------------------------------------------
 
-
+# user
 /opt/R/4.0.2/bin/R -e 'install.packages(c("tidyverse","tidymodels","gt","shiny","rmarkdown"), repos = "http://ec2-3-144-73-13.us-east-2.compute.amazonaws.com/rspm/Validated/__linux__/bionic/latest")'
+
+# root / system / all users
+# sudo /opt/R/4.0.2/bin/R -e 'install.packages(c("tidyverse","tidymodels","gt","shiny","rmarkdown"), repos = "http://ec2-3-144-73-13.us-east-2.compute.amazonaws.com/rspm/Validated/__linux__/bionic/latest")'
+
