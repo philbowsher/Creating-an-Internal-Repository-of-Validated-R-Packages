@@ -4,11 +4,9 @@
 mkdir -p ./rstudio-pm-demo/
 docker run --privileged -it --rm --name=rstudio-pm -v $(pwd)/rstudio-pm-demo:/data/ -p 4242:4242 -e RSPM_LICENSE ghcr.io/rstudio/rstudio-package-manager:latest
 
-# ---------------------------------------------------
-# important!
-# in another shell
-# ---------------------------------------------------
+# to install on linux: wget ...rstudio-pm...deb && gdebi install rstudio-pm...deb
 
+# important! in another shell
 docker exec -it rstudio-pm bash
 
 # ---------------------------------------------------
