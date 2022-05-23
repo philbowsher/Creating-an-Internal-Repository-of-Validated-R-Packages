@@ -1,5 +1,5 @@
 # ---------------------------------------------------
-# run RSPM
+# run RSPM in Docker
 # ---------------------------------------------------
 mkdir -p ./rstudio-pm-demo/
 docker run --privileged -it --rm --name=rstudio-pm -v $(pwd)/rstudio-pm-demo:/data/ -p 4242:4242 -e RSPM_LICENSE ghcr.io/rstudio/rstudio-package-manager:latest
@@ -11,6 +11,9 @@ docker run --privileged -it --rm --name=rstudio-pm -v $(pwd)/rstudio-pm-demo:/da
 
 docker exec -it rstudio-pm bash
 
+# ---------------------------------------------------
+# configure RSPM
+# ---------------------------------------------------
 
 # pull in cran state
 rspm sync
@@ -24,7 +27,6 @@ rspm create source --name=validated --type=curated-cran
 rspm list sources
 
 # it has no packages in it
-
 
 # ---------------------------------------------------
 # example with a few packages
