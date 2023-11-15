@@ -1,11 +1,11 @@
 # ---------------------------------------------------
 # run RSPM in Docker
 # ---------------------------------------------------
-mkdir -p ./rstudio-pm-demo/
-docker run --privileged -it --rm --name=rstudio-pm -v $(pwd)/rstudio-pm-demo:/data/ -p 4242:4242 -e RSPM_LICENSE ghcr.io/rstudio/rstudio-package-manager:latest
+# mkdir -p ./rstudio-pm-demo/
+# docker run --privileged -it --rm --name=rstudio-pm -v $(pwd)/rstudio-pm-demo:/data/ -p 4242:4242 -e RSPM_LICENSE ghcr.io/rstudio/rstudio-package-manager:latest
 
 # important! in another shell
-docker exec -it rstudio-pm bash
+# docker exec -it rstudio-pm bash
 
 # to install on linux, as of 2022-05-01
 # sudo apt update
@@ -17,8 +17,13 @@ docker exec -it rstudio-pm bash
 # configure RSPM
 # ---------------------------------------------------
 
+# check groups
+
+id
+
 # pull in cran state
-rspm sync
+# We do this for workshop attendees now behind the scenes
+# rspm sync
 
 # create a "source"
 # a "source" is a collection of packages
@@ -26,6 +31,7 @@ rspm sync
 rspm create source --name=validated --type=curated-cran
 
 # look at the source created
+# note Curated CRAN date
 rspm list sources
 
 # it has no packages in it
@@ -41,7 +47,8 @@ rspm add --source=validated --include-suggests --csv-out example.csv --packages=
 
 more example.csv
 
-
+# To complete run something like this, note date, this usually day of workshop
+# rspm add --source=validated --include-suggests --csv-out example.csv --packages=tidyverse,tidymodels,gt,shiny,rmarkdown --commit --snapshot=2023-11-13
 
 # ---------------------------------------------------
 # example with many packages
@@ -69,8 +76,12 @@ rspm subscribe --repo=Validated --source=validated
 # ---------------------------------------------------
 
 # user
+# you will need to update the link below with the new link of the workshop Validated PPM repo. Be sure to grab link for Linux OS used, like jammy
+# Make sure you update R version to latest in PTT
+
 # /opt/R/4.0.2/bin/R -e 'install.packages(c("tidyverse","tidymodels","gt","shiny","rmarkdown"), repos = "http://ec2-3-144-73-13.us-east-2.compute.amazonaws.com/rspm/Validated/__linux__/bionic/latest")'
 
+# root won't work in PTT workshop space
 # root / system / all users
 # sudo /opt/R/4.0.2/bin/R -e 'install.packages(c("tidyverse","tidymodels","gt","shiny","rmarkdown"), repos = "http://ec2-3-144-73-13.us-east-2.compute.amazonaws.com/rspm/Validated/__linux__/bionic/latest")'
 
